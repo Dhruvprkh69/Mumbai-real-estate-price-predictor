@@ -48,7 +48,7 @@
 ## 🔧 Model Development
 
 ### Data Preprocessing
-- **Missing Value Handling**: Intelligent imputation for <50% missing, drop for >50%
+- **Missing Value Handling**: Imputation for <50% missing, drop for >50%
 - **Outlier Management**: 99th percentile capping for apartments, keep luxury properties
 - **Feature Engineering**: Bedroom-bathroom ratio, amenities scoring, area encoding
 
@@ -138,91 +138,17 @@
 streamlit run streamlit_app.py
 ```
 
-### Cloud Deployment
-- **Streamlit Cloud**: Direct deployment from GitHub
-- **Heroku**: Container-based deployment
-- **AWS/GCP**: Cloud platform deployment
-
-### Environment Variables
-```bash
-export STREAMLIT_SERVER_PORT=8501
-export STREAMLIT_SERVER_ADDRESS=0.0.0.0
-```
-
-## 📊 Business Impact
-
 ### Market Insights
 - **Price Trends**: Area-wise market analysis
 - **Investment Opportunities**: Emerging areas identification
 - **Market Segmentation**: Category-based pricing strategy
 - **Demand Patterns**: Property type preferences
 
-### User Benefits
-- **Accurate Pricing**: 96.73% prediction accuracy
-- **Market Intelligence**: Area-wise insights
-- **Investment Guidance**: Price range analysis
-- **Decision Support**: Data-driven property evaluation
-
-## 🔮 Future Enhancements
-
-### Planned Features
-- **Multi-city Support**: Delhi, Bangalore, Pune
-- **Property Images**: Visual property analysis
-- **Market Trends**: Historical price analysis
-- **Investment Calculator**: ROI and EMI calculations
-- **Comparative Analysis**: Property comparison tools
-
-### Technical Improvements
-- **API Development**: RESTful API for integrations
-- **Mobile App**: Native mobile application
-- **Advanced Analytics**: Market trend predictions
-- **ML Pipeline**: Automated model retraining
-
-## 🤝 Contributing
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-### Development Setup
-```bash
-git clone https://github.com/yourusername/mumbai-real-estate-predictor.git
-cd mumbai-real-estate-predictor
-pip install -r requirements.txt
-python -m pytest tests/
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Team
-
-- **Data Scientist**: [Your Name]
-- **Machine Learning Engineer**: [Your Name]
-- **Full Stack Developer**: [Your Name]
-
-## �� Contact
-
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
-
-## �� Acknowledgments
-
-- **Dataset Source**: [Mention data source]
-- **Research Papers**: [Relevant papers]
-- **Open Source Libraries**: [Libraries used]
-- **Community Support**: [Community contributions]
-
 ---
 
 ## �� Project Statistics
 
-- **Development Time**: 2-3 weeks
+- **Development Time**: 1-3 weeks
 - **Lines of Code**: 500+
 - **Model Accuracy**: 96.73%
 - **Areas Covered**: 100+
