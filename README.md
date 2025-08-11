@@ -18,12 +18,14 @@
    pip install -r requirements.txt
    ```
 
-3. **Run the application**
+3. **Run the entire ipynb file**
+
+4. **Run the application**
    ```bash
    streamlit run streamlit_app.py
    ```
 
-4. **Open in browser**
+5. **Open in browser**
    - Local URL: http://localhost:8501
    - Network URL: http://your-ip:8501
 
