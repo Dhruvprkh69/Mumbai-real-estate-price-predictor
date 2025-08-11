@@ -117,7 +117,7 @@
 - Get instant price prediction
 - View detailed price breakdown
 
-## �� Model Validation
+## Model Validation
 
 ### Overfitting Analysis
 - **Train-Test Gap**: 1.44% (minimal)
@@ -146,7 +146,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## �� Project Statistics
+## Project Statistics
 
 - **Development Time**: 1-3 weeks
 - **Lines of Code**: 500+
